@@ -30,11 +30,23 @@ El fichero `docker-compose.yml` pone en marcha dos contenedores: uno con la apli
 docker-compose up
 ```
 
+Comprobar que se están ejecutando con:
+
+```bash
+docker ps
+```
+
 Para detenerlos:
 
 ```bash
 docker-compose down
 ```
+
+> *Tip*: si hubiera algún problema y hubiera que modificar código, será necesario compilar y limpiar:
+> ```bash
+> docker-compose down -v --rmi all
+> docker-compose up --build
+> ```
 
 ## Servicios
 
