@@ -1,0 +1,1 @@
+Necesito que me digas cuál es la capital de Francia. Devuélveme solo un objeto JSON válido, sin explicaciones, sin texto adicional y sin bloques de markdown. El JSON debe tener la clave "capital".

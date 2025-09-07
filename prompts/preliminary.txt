@@ -1,0 +1,14 @@
+El siguiente fichero pdf es un balance de situación económica de una empresa. Necesito que asumas el papel de una analista financiero para realizar sobre este fichero las siguientes tareas:
+
+- Extraer el nombre de la empresa
+- Calcular el Ratio de Liquidez Corriente.
+- Calcular el Ratio de Endeudamiento.
+- Calcular el Margen Neto
+
+Los datos anteriormente extraidos serán devueltos en formato JSON, sin más explicaciones, ni anotaciones, ni texto adicional ni marcas de formato markdown, bajo las siguientes claves:
+- Nombre de la empresa: "company"
+- Ratio de Liquidez Corriente: "currentRatio"
+- Ratio de Endeudamiento: "debtRatio"
+- Margen Neto: "netProfitMargin"
+
+Cualquier aclaración que debas hacer sobre algún cálculo, agrégalo en un campo "notes". 
